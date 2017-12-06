@@ -1,0 +1,255 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(252, 251, 251);
+}
+.enter {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+}
+.header {
+  width: 370px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  background: rgb(113, 185, 152);
+}
+.enterSys {
+  padding-right: 92px;
+  padding-left: 23px;
+}
+#res {
+  padding: 5px 20px;
+  border-bottom: 2px solid #206e93;
+  background: #206e93;
+  color: white;
+  height: 48px;
+  font-size: large;
+  border-radius: 10%;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background: rgb(77, 143, 47);
+  width: 370px;
+  height: 195px;
+}
+.point {
+  height: 35px;
+  padding: 0 14px;
+  border: 1px solid gray;
+  background: rgb(202, 190, 190);
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.pointMax {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+}
+.pointMin {
+  height: 10px;
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: black;
+  margin: 5px;
+}
+
+.panel > input {
+  height: 35px;
+  border-radius: 10%;
+  font-size: 15px;
+}
+#err {
+  display: none;
+  width: 123px;
+  height: 40px;
+  margin-top: 55px;
+  font-size: large;
+  border-radius: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid #970808;
+  background: #d20e0e;
+}
+
+.keyBoard {
+  width: 370px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.row > input {
+  width: 76px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 10px;
+  margin-left: 25px;
+  background: #007bff;
+  border-radius: 15%;
+}
+
+.acount {
+  display: none;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 370px;
+  height: 600px;
+}
+.headerLog {
+  width: 370px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  background: rgb(113, 185, 152);
+}
+.enterSysLog {
+  padding-right: 92px;
+  padding-left: 23px;
+}
+.enterSysLog > h1 {
+  margin: 0px;
+  width: 210px;
+}
+.resetLog {
+  padding-left: 305px;
+  height: 49px;
+  position: absolute;
+}
+.resetLog > input {
+  width: 40px;
+  height: 40px;
+  background: rgb(113, 185, 152);
+  margin-top: -22px;
+  margin-left: 1px;
+}
+.line_1 {
+  width: 40px;
+  height: 2px;
+  border: 1px solid red;
+  transform: rotate(45deg);
+  margin-top: 20px;
+  position: absolute;
+  background: red;
+}
+.line_2 {
+  width: 40px;
+  height: 2px;
+  border: 1px solid red;
+  transform: rotate(-45deg);
+  margin-top: 21px;
+  background: red;
+}
+
+.profile {
+  width: 370px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  background: rgb(77, 143, 47);
+}
+.foto > img {
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+
+.balans {
+  margin-left: 10px;
+  height: 35px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.bal_Text {
+  border: 0px solid white;
+  border-radius: 10%;
+  width: 70px;
+  height: 35px;
+  background: white;
+}
+
+.money {
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 10%;
+  background: rgb(82, 82, 133);
+  margin-left: 30px;
+}
+.money > p {
+  width: 70px;
+}
+
+.howMatchToGet {
+  height: 50px;
+  width: 90px;
+  border-radius: 10%;
+  border: 1px solid blue;
+  background: white;
+  margin-top: 10px;
+}
+.balans > input {
+  height: 35px;
+  border-radius: 10%;
+  font-size: 15px;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tab {
+  background: rgb(77, 143, 47);
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+table {
+  width: 350px;
+  border: 4px double black;
+  border-collapse: collapse;
+  background: white;
+}
+th {
+  text-align: left;
+  background: #ccc;
+  padding: 5px;
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+.kBoard {
+  width: 370px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.rw > input {
+  width: 76px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 10px;
+  margin-left: 25px;
+  background: #007bff;
+  border-radius: 15%;
+}

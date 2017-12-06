@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bankomat</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body>
+    <div class="enter">
+        <div class="header">
+
+            <div class="enterSys">
+                <h2>Вход в систему</h2>
+            </div>
+            <div class="reset">
+                <input id="res" type="reset" value="Reset" onclick="BtnRestart()">
+            </div>
+        </div>
+
+
+        <div class="display">
+            <div class="point">
+                <div class="pointMax"></div>
+                <div class="pointMin"></div>
+            </div>
+            <form class="panel" name="panel">
+                <input onkeypress="return false" type="password" id="password" name="pin">
+                <label id="err">ошибка</label>
+            </form>
+        </div>
+
+        <div class="keyBoard">
+            <div class="row">
+                <input type="button" id="but" value="1">
+                <input type="button" id="but" value="2">
+                <input type="button" id="but" value="3">
+            </div>
+            <div class="row">
+                <input type="button" id="but" value="4">
+                <input type="button" id="but" value="5">
+                <input type="button" id="but" value="6">
+            </div>
+            <div class="row">
+                <input type="button" id="but" value="7">
+                <input type="button" id="but" value="8">
+                <input type="button" id="but" value="9">
+            </div>
+            <div class="row">
+                <input id="del" type="button" value="Del">
+                <input type="button" value="0" id="but">
+                <input id="ok" type="button" value="Ok">
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="acount">
+        <div class="headerLog">
+            <div class="enterSysLog">
+                <h1>Имя Фамилия</h1>
+            </div>
+            <div class="resetLog">
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <input type="button" id="bClose">
+            </div>
+        </div>
+        <div class="profile">
+            <div class="foto">
+                <img src="http://www.techandlife.com/wp-content/uploads/2011/10/silhouette.png">
+            </div>
+            <div class="balans">
+                <div class="bal_Text">
+                    <p>Баланс:</p>
+                </div>
+                <div class="money">
+                    <p>$</p>
+                </div>
+                <div class="howMatchToGet">
+                    <p>Сумма для снятия</p>
+                </div>
+                <input onkeypress="return false" type="number" id="sum" placeholder="">
+                <!-- -->
+            </div>
+        </div>
+        <div class="tab">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Сумма</th>
+                        <th>Время</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="kBoard">
+
+            <div class="rw">
+                <input type="button" id="button" value="1">
+                <input type="button" id="button" value="2">
+                <input type="button" id="button" value="3">
+            </div>
+            <div class="rw">
+                <input type="button" id="button" value="4">
+                <input type="button" id="button" value="5">
+                <input type="button" id="button" value="6">
+            </div>
+            <div class="rw">
+                <input type="button" id="button" value="7">
+                <input type="button" id="button" value="8">
+                <input type="button" id="button" value="9">
+            </div>
+            <div class="rw">
+                <input type="button" id="delete" value="Del">
+                <input type="button" id="button" value="0">
+                <input type="button" id="okey" value="Ok">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
